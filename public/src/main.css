@@ -1,0 +1,127 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+hr{
+    height: 3px;
+    background-color: white;
+    border: none;
+}
+
+.navbar{
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.poster{
+    height: 100vh;
+    background-image: url("poster.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1!important;
+}
+
+.blackNav{
+    height: 64px;
+}
+
+.konten-home{
+    height: 1600px;
+}
+
+.konten-home .judul{
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.konten-home .description{
+    color: white;
+    font-size: small;
+}
+
+.footer{
+    height: 50px;
+    padding-top: 12px;
+    font-weight: 600;
+}
+
+.line {
+    display: block;
+    height: 1px;
+    border-top: 1.5px solid orange;
+}
+
+.frame{
+    height: 1400px;
+    display: block;
+    border: 1.5px solid orange;
+}
+
+.card{
+    width: 100px;
+    height: 200px;
+    display: block;
+    border: 0.5px solid black;
+}
+
+.filter{
+    position: fixed;
+    top: 15%;
+    left: 20%;
+}
+
+.filter .kotakFilter{
+    height: 125px;
+    width: 175px;
+    background-color: rgb(0, 0, 0, 0.5);
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+.filter .kotakFilterweapon{
+    height: 195px;
+    width: 175px;
+    background-color: rgb(0, 0, 0, 0.5);
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+.character{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+
+.character .kotakCharacter{
+    width: 625px;
+    background-color: rgb(0, 0, 0, 0.5);
+    border: 1px solid black;
+}
+
+.weapon{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+
+.weapon .kotakweapon{
+    width: 625px;
+    background-color: rgb(0, 0, 0, 0.5);
+    border: 1px solid black;
+}
+
+.artifact{
+    position: absolute;
+    top: 15%;
+    left: 25%;
+}
+
+.artifact .kotakartifact{
+    width: 625px;
+    background-color: rgb(0, 0, 0, 0.5);
+    border: 1px solid black;
+}
